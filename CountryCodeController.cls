@@ -17,7 +17,7 @@ public class CountryCodeController {
             countryNames.add( new SelectOption( country.Id, country.Name ) );
         }
 
-        System.debug('cia');
+        
     }
 
 }
