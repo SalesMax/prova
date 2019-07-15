@@ -16,7 +16,7 @@ public class CountryCodeController {
         for( CountryCode__c country : allCountries ) {
             countryNames.add( new SelectOption( country.Id, country.Name ) );
         }
-
+System.debug('ciaooo');
         
     }
 
